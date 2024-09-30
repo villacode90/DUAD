@@ -1,0 +1,51 @@
+************************************************************************************
+*Notas Sistema de Control de Estudiantes -  Semana 10 -  Lyfter
+************************************************************************************
+
+1-Menú - Imprimir un menú amigable para el usuario.
+Ejemplo de Menú:
+	1-Ingresar Estudiantes
+	2-Ver Información de Estudiantes.
+	3-Top 3 Estudiantes
+	4-Export Información a CSV.
+	5-Importar Información desde un CSV.
+
+1.1- Validación del Menú - validar que se ingrese una opción del valida del menú.
+
+2- Al iniciar el programa, cargar la data del CSV.
+2.2- Debe mostrarse como un diccionario al usuario para mejor compresión visual.
+2.3- Programar funcionalidad de la opción 4 y 5 del menú.
+
+3-Ingresar estudiantes.
+3.1-Validar que las notas ingresada sean validad(número de 0 a 100) y seguir pidiéndola hasta que sea valida.
+
+4-Ver promedios
+4.1-Visualizar el promedio y los promedios de notas de cada uno de los estudiantes.
+
+Ejemplo:
+Promedio de Rafael:
+	Ciencias - 80%
+	Español - 85%
+	Matemáticas - 90%
+	(80 + 85 + 90 = 255 / 3 = 85)
+	Promedio = 85%
+
+5-Exportar datos a CSV.
+*Preguntar si la data se debe perder si no se exporta después de haber ingresado la información de los estudiantes.*
+
+6-Importar datos de un CSV previamente exportados.
+6.1-Al abrir el programa lo primero que hara el programa antes de mostrar el menú sera cargar la información del CSV.
+6.2-Una vez cargada la información se mostrara el menú.
+
+
+
+
+Módulos:
+Main: tendrá el punto de entrada del programa.
+Menu: tendrá toda la lógica relacionada al menu de opciones.
+Actions: tendrá toda la lógica de las acciones del menu, excepto las de exportar e importar datos.
+Data: tendrá toda la lógica de exportación e importación de datos.
+
+
+
+
