@@ -1,0 +1,217 @@
+1. Cree un pseudocódigo que le pida un `precio de producto` al usuario, calcule su descuento y muestre el precio final tomando en cuenta que:
+    1. Si el precio es menor a 100, el descuento es del 2%.
+    2. Si el precio es mayor o igual a 100, el descuento es del 10%.
+    3. *Ejemplos*:
+        1. 120 → 108
+        2. 40 → 39.2
+
+---
+
+- Respuesta *
+
+---
+
+Inicio
+Definir 'Precio_de_Producto'
+Definir 'Descuento'
+Definir 'Precio_Final'
+'Descuento' = 0
+'Precio_Final' = 0
+
+'Precio_de_Producto' = 0
+Mostrar "Ingrese el precio del producto"
+Pedir 'Precio_de_Producto'
+Si 'Precio_de_Producto' ≥ 100
+     'Descuento' = ('Precio_de_Producto' * 10) / 100
+
+      ‘Precio_Final’ = ‘Precio_de_Producto’ - ‘Descuento’
+Sino
+      'Descuento' =  ('Precio_de_Producto' * 2) / 100
+
+      ‘Precio_Final’ = ‘Precio_de_Producto’ - ‘Descuento’
+FinSi
+Mostrar "El precio final del producto es:"
+Mostrar 'Precio_Final'
+Fin
+
+---
+
+1. Cree un pseudocódigo que le pida un `tiempo en segundos` al usuario y calcule si es menor o mayor a 10 minutos. Si es menor, muestre cuantos segundos faltarían para llegar a 10 minutos. Si es mayor, muestre “*Mayor*”.
+    1. *Ejemplos*:
+        1. 1040 → Mayor
+        2. 140 → 460
+        3. 599 → 1
+
+---
+
+- Respuesta *
+
+---
+
+Inicio
+Definir 'Tiempo_En_Segundos'
+Definir 'Segundos_Restante'
+'Segundos_Restante' = 0
+Mostrar "Por favor, ingrese el tiempo en segundos."
+Pedir 'Tiempo_En_Segundos'
+Si 'Tiempo_En_Segundos' > 600
+Mostrar "*Mayor*"
+Sino
+'Segundos_Restante' = 600 - 'Tiempo_En_Segundos'
+Mostrar "Los segundos que hacen falta para llegar a 10 minutos son: "
+Mostrar 'Segundos_Restante'
+FinSi
+Fin
+
+---
+
+1. Cree un algoritmo que le pida un numero al usuario y muestre la suma de todos los números desde 1 hasta ese número.
+    1. 3 → 6 (1 + 2 + 3)
+    2. 5 → 15 (1 + 2 + 3 + 4 + 5)
+    3. 12 → 78 (1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 + 11 + 12)
+
+---
+
+- Respuesta *
+
+---
+
+ Inicio
+Definir 'Numero_Usuario'
+Definir 'i'
+Definir 'Suma_contador'
+Definir 'Suma_total'
+Mostrar "Ingrese un numero, por favor."
+Pedir Numero_Usuario
+'Suma_contador'= 0
+'Suma_total' = 0
+'i'= 0
+Mientras que ('i' < 'Numero_Usuario') hacer:
+      'Suma_contador' = i + 1
+       'Suma_total' = 'Suma_total' + 'Suma_contador'
+       'i' = 'i' + 1
+FinMientras
+Mostrar"La suma de los todos los números de 1 hasta el numero ingresado es: "
+Mostrar 'Suma_total'
+Fin
+
+---
+
+**Ejercicios Extra**
+
+---
+
+---
+
+1. Cree un algoritmo que le pida 2 números al usuario, los guarde en dos variables distintas (`primero` y `segundo`) y los ordene de menor a mayor en dichas variables.
+    1. Ejemplos:
+        1. A: 56, B: 32 → A: 32, B: 56
+        2. A: 24, B: 76 → A: 24, B: 76
+        3. A: 45, B: 12 → A: 12, B: 45
+
+---
+
+- Respuesta *
+
+---
+
+Inicio
+Definir 'primero'
+Definir 'segundo'
+Definir 'A'
+Definir 'B'
+'primero' = 0
+'segundo' = 0
+'A' = 0
+'B' = 0
+Mostrar "Por favor, ingrese el primer numero:"
+Pedir 'primero'
+Mostrar "Por favor, ingrese el segundo numero:"
+Pedir 'segundo'
+Si primero < segundo
+'A'= 'primero'
+'B' = 'segundo'
+'primero' = 'A'
+'segundo' = 'B'
+Sino
+'A'= 'primero'
+'B' = 'segundo'
+'primero' = 'B'
+'segundo' = 'A'
+FinSi
+Fin
+
+---
+
+1. Cree un algoritmo que le pida al usuario una velocidad en km/h y la convierta a m/s. Recuerda que `1 km == 1000m` y `1 hora == 60 segundos`.
+    1. *Ejemplos*:
+        1. 73 → 20.27
+        2. 50 → 13.88
+        3. 120 → 33.33
+
+---
+
+- Respuesta *
+
+---
+
+Inicio
+Definir 'Velocidad_en_Kilometros'
+Definir 'Metros_por_segundo'
+Definir 'Metros_por_km'
+Definir 'Segundos_en_hora'
+Mostrar "Ingrese la velocidad en km/h: "
+Pedir 'Velocidad_en_Kilometros'
+'Metros_por_km' = 1000
+'Segundos_en_hora' = 3600
+'Metros_por_segundo' = 'Velocidad_en_Kilometros' * 'Metros_por_km'/ 'Segundos_en_hora'
+Mostrar "Los m/s son: "
+Mostrar 'Metros_por_segundo'
+Fin
+
+---
+
+1. Cree un algoritmo que le pregunte al usuario por el sexo de 6 personas, ingresando 1 si es mujer o 2 si es hombre, y muestre al final el porcentaje de mujeres y hombres.
+    1. *Ejemplos*:
+        1. 1, 1, 1, 2, 2, 2 → 50% mujeres y 50% hombres
+        2. 1, 1, 2, 2, 2, 2 → 33.3% mujeres y 66.6% hombres
+        3. 1, 1, 1, 1, 1, 2 → 84.4% mujeres y 16.6% hombres
+
+---
+
+- Respuesta *
+
+---
+
+Inicio
+Definir 'sexo'
+Definir 'porcentaje_sexo_masculino'
+Definir 'porcentaje_sexo_femenino'
+Definir 'contador'
+Definir 'Cantidad_de_personas'
+Definir 'Cantidad_de_hombres'
+Definir 'Cantidad_de_mujeres'
+'Cantidad_de_personas' = 6
+'porcentaje_sexo_masculino' = 0
+'porcentaje_sexo_femenino' = 0
+'Cantidad_de_hombres' = 0
+'Cantidad_de_mujeres' = 0
+'contador = 1'
+Mientras que ('contador' ≤ 'Cantidad_de_personas') hacer:
+Mostrar "Ingrese un sexo, 1 para Mujer y 2 para Hombre. Favor ingrese el sexo numero: "
+Mostrar 'Contador'
+Pedir 'sexo'
+Si 'sexo'= 1
+'Cantidad_de_mujeres' = 'Cantidad_de_mujeres' + 1
+Sino
+'Cantidad_de_hombres' = 'Cantidad_de_hombres' + 1
+FinSi
+'contador' = 'contador' + 1
+FinMientras
+'porcentaje_sexo_femenino' = (’Cantidad_de_mujeres’ / ‘Cantidad_de_personas’) * 100
+'porcentaje_sexo_masculino'  = (’Cantidad_de_hombres’ / ‘Cantidad_de_personas’) * 100
+Mostrar "El porcentaje de mujeres es de: "
+Mostrar ‘porcentaje_sexo_femenino’
+Mostrar "El porcentaje de mujeres es de: "
+Mostrar ‘porcentaje_sexo_masculino’
+Fin
