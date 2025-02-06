@@ -1,0 +1,156 @@
+# Qué es?
+
+- Algoritmo es una palabra intimidante.
+- Las personas suelen pensar que se trata de algún concepto matemático complicado debido a su parecido con *logaritmo*, pero la realidad no podría ser más distinta.
+- Un algoritmo es, en esencia, un conjunto de pasos o instrucciones para realizar una determinada acción o llegar a cierto resultado.
+- Todos los algoritmos tiene un `inicio` y un `fin`.
+
+Por ejemplo, este es un algoritmo para servirse café:
+
+> Servirse café v1
+> 
+> 1. Inicio
+> 2. Preparar el café
+> 3. Buscar una taza
+> 4. Servir el café en la taza
+> 5. Ponerle azúcar y batirlo
+> 6. Fin
+
+Ahora, hay personas como a mí a las que les gusta el café con leche. Para esos casos específicos, podríamos agregar un paso `condicionado` a ese algoritmo.
+
+> Servirse café v1.1
+> 
+> 1. Inicio
+> 2. Preparar el café
+> 3. Buscar una taza
+> 4. Servir el café en la taza
+> 5. Si le gusta con leche:
+>     1. Servir leche en la taza
+> 6. Ponerle azúcar y batirlo
+> 7. Fin
+
+Los algoritmos pueden ser tan específicos y complejos como queramos. Por ejemplo, podemos agregarle pasos mas pequeños a cada paso y ser mas específicos.
+
+> Servirse café v2.0
+> 
+> 1. Inicio
+> 2. Preparar el café
+>     1. Agarrar una bolsa de café
+>         1. Buscar la bolsa de cafe
+>         2. Abrir la bolsa de cafe
+>             1. Tomar unas tijeras
+>             2. Cortar la bolsa
+>     2. Servir dos cucharadas de café en el coffee maker
+>     3. Servir un vaso de agua en el coffee maker
+>     4. Encender el coffee maker
+> 3. Buscar una taza
+>     1. Abrir la alacena
+>     2. Tomar la taza
+>     3. Cerrar la alacena
+> 4. Servir el café en la taza
+> 5. Si le gusta con leche:
+>     1. Buscar leche
+>         1. Abrir la refrigeradora
+>         2. Tomar la leche
+>         3. Cerrar la refrigeradora
+>     2. Servir leche en la taza
+> 6. Poner azúcar
+>     1. Buscar la azúcar
+>     2. Servir una cucharada de azúcar en la taza
+> 7. Batir
+> 8. Fin
+
+# Condiciones
+
+## Condiciones simples
+
+- Como vimos con el ejemplo de la leche, un algoritmo puede tener condiciones para algunas instrucciones.
+
+Aquí va otro ejemplo; digamos que queremos hacer un algoritmo para viajar al trabajo, pero que pueda funcionar para cualquier persona independientemente de su medio de transporte:
+
+> Viajar al trabajo
+> 
+> 1. Inicio
+> 2. Salir de casa
+> 3. Si tiene automóvil:
+>     1. Ir en automóvil
+> 4. Sino, si tiene motocicleta:
+>     1. Ir en motocicleta
+> 5. Sino, si tiene bicicleta:
+>     1. Ir en bicicleta
+> 6. Sino:
+>     1. Ir en autobus
+> 7. Fin
+- Nótese que aquí estamos usando también “sino”.
+    - Eso significa que las condiciones son exclusivas, solo puede pasar una o la otra.
+    - Si se tiene automóvil, no se puede ir en motocicleta, inclusive si también la tuviera.
+
+## Condiciones compuestas
+
+- Tambien podemos agregar varias condiciones para una sola instrucción.
+
+Por ejemplo, digamos que también queremos revisar si el automóvil o la motocicleta tienen gasolina y marchamo:
+
+> Viajar al trabajo
+> 
+> 1. Inicio
+> 2. Salir de casa
+> 3. Si tiene automóvil y el automóvil tiene gasolina y tiene marchamo:
+>     1. Ir en automóvil
+> 4. Sino, si tiene motocicleta y la motocicleta tiene gasolina  y tiene marchamo:
+>     1. Ir en motocicleta
+> 5. Sino, si tiene bicicleta:
+>     1. Ir en bicicleta
+> 6. Sino:
+>     1. Ir en autobus
+> 7. Fin
+
+- Las condiciones multiples pueden usar tanto Y como O.
+
+Por ejemplo, digamos que tenemos un algoritmo para ver una película en Netflix dependiendo del dispositivo de la persona:
+
+> Ver película en Netflix
+> 
+> 1. Inicio
+> 2. Si tiene computadora:
+>     1. Ingresar a Netflix.com
+> 3. Sino, si tiene smartphone, o si tiene tablet, o si tiene smart TV:
+>     1. Ingresar a la app de Netflix
+> 4. Sino:
+>     1. Busque a alguien que si tenga alguno de los anteriores y pidaselo prestado.
+> 5. Buscar la película
+> 6. Reproducirla
+> 7. Fin
+
+# Ciclos
+
+Podemos agregar instrucciones que se repitan hasta que cierta condición deje de ser cierta o sea cierta.
+
+Por ejemplo, creemos un algoritmo para lavar un plato:
+
+> Lavar plato sucio
+> 
+> 1. Inicio
+> 2. Tomar una esponja
+> 3. Llenar la esponja con jabón
+> 4. Tomar el plato sucio
+> 5. Mientras que el plato esté sucio:
+>     1. Restriegue el plato con la esponja
+> 6. Fin
+
+*Si por algun motivo el plato nunca deja de estar sucio, nos veríamos restregándolo por la eternidad.*
+
+También podemos usar ciclos para repetir un paso para una determinada lista de cosas.
+
+Por ejemplo, podemos hacer qué este ultimo algoritmo de lavar plato sucio se repita para cada plato sucio.
+
+> Lavar platos sucios
+> 
+> 1. Inicio
+> 2. Tomar una esponja
+> 3. Por cada plato sucio:
+>     1. Llenar la esponja con jabón
+>     2. Tomar el plato sucio
+>     3. Mientras que el plato esté sucio:
+>         1. Restriegue el plato con la esponja
+> 4. Fin

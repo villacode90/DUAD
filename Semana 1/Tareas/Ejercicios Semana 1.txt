@@ -1,0 +1,536 @@
+*********************************************************************************
+* Cree un algoritmo para ver un video en Youtube. Sea lo más especifico posible.*
+*********************************************************************************
+0-Ver un Video en You Tube:
+	1-Inicio
+	2-Si tiene computadora:
+		1-Ir a la computadora.
+		2-Encerder Computadora.
+		3-Iniciar Sessión en el Computador.
+		4-Abrir tu navegador web de preferencia.
+		5-Digitar en el buscador del navegador web "youtube.com".
+		6-Ingresar a YouTube.com.
+		7-Si tienes cuenta en YouTube.com:
+			1-Iniciar Sessión con tu cuenta.
+			2-Presionar en el botón Iniciar Sessión.
+			3-Digitar tu cuenta de correo de Google o tu numero telefonico.
+			4-Digitar tu contraseña.
+			5-Presionar Iniciar Sessión.
+		8-Si no tienes cuenta en YouTube.com y quieres crear una:
+			1-Presionar en el botón Iniciar Sessión.
+			2-Dar click en crear cuenta y elegir si quieres una cuenta de uso personal, de niños o de trabajo.
+			3-Ingresar tu primer nombre.
+			4-Ingresar tu apellido.
+			5-Ingresar tu fecha de nacimiento
+			6-Elige tu Genero
+			7-Ingresar tu correo electronico.
+			8-Ingresar contraseña del correo electronico.
+		8-Sino:
+			1-No Iniciar Sessión con una cuenta de You Tube.com.
+	3-Si tiene smartphone:
+		1-Buscar tu smartphone.
+		2-Debloquear pantalla del smartphone.
+		3-Si tienes la App de You Tube instalada en tu smartphone:
+			1-Abrir App de YouTube.
+		4-Sino tienes la App de YouTube instalada en tu smartphone:
+			1-Si quieres instalar la app en tu dispositivo:
+				2-Ir a la Tienda de Apps.
+				3-Digitar en el buscador de Apps: "YouTube".
+				4-Instalar App.
+				4-Abrir la App de You Tube.
+			2-Sino quieres instalar la app en tu dispositivo:
+				1-Abrir el navegador web del dispositivo.
+				2-Digitar en el buscador: YouTube.com
+				3-Ingresar a YouTube.com
+		5-Si tienes cuenta en YouTube.com:
+			1-Iniciar Sessión con tu cuenta.
+			2-Presionar en el botón Iniciar Sessión.
+			3-Digitar tu cuenta de correo de Google o tu numero telefonico.
+			4-Presionar tecla Enter.
+			5-Digitar tu contraseña.
+			6-Presionar Iniciar Sessión
+
+		6-Si no tienes cuenta en YouTube.com y quieres crear una:
+			1-Presionar en el botón Iniciar Sessión.
+			2-Dar click en crear cuenta y elegir si quieres una cuenta de uso personal, de niños o de trabajo.
+			3-Ingresar tu primer nombre.
+			4-Ingresar tu apellido.
+			5-Ingresar tu fecha de nacimiento
+			6-Genero
+			7-Ingresar tu correo electronico.
+			8-Ingresar contraseña del correo electronico.
+		7-Sino:
+			a-No Iniciar Sessión con una cuenta de You Tube.com.
+	4-Si tiene Tablet:
+		1-Buscar tu tablet.
+		2-Debloquear Tablet.
+		3-Si tienes la app de You Tube instalada en tu Tablet:
+			1-Abrir App de YouTube.
+		4-Sino tienes la App de YouTube instalada en tu Tablet.
+			1-Si quieres instalar la app en tu dispositivo:
+				1-Ir a la Tienda de Apps.
+				2-Digitar en el buscador de Apps: "YouTube".
+				3-Instalar App.
+				4-Abrir la App de You Tube.
+			2-Sino:
+				1-Abrir el navegador web del dispositivo.
+				2-Digitar en el buscador: YouTube.com
+				3-Ingresar a YouTube.com
+		5-Si tienes cuenta en YouTube.com:
+			1-Iniciar Sessión con tu cuenta.
+			2-Presionar en el botón Iniciar Sessión.
+			3-Digitar tu cuenta de correo de Google o tu numero telefonico.
+			4-Digitar tu contraseña.
+			5-Presionar tecla Enter en el teclado.
+		6-Si no tienes cuenta en YouTube.com y quieres crear una:
+			1-Presionar en el botón Iniciar Sessión.
+			2-Dar click en crear cuenta y elegir si quieres una cuenta de uso personal, de niños o de trabajo.
+			3-Ingresar tu primer nombre.
+			4-Ingresar tu apellido.
+			5-Ingresar tu fecha de nacimiento
+			6-Genero
+			7-Ingresar tu correo electronico.
+			8-Ingresar contraseña del correo electronico.
+		7-Sino:
+			1-No Iniciar Sessión con una cuenta de You Tube.com.
+	5-Sino 
+		1-Busque alguien que si tenga alguno de los anteriores y pideselo prestado.
+	6-Digitar en el buscador de YouTube el video de su preferencia.
+	7-Seleccionar el video de su preferencia en los resultados del buscador.
+	8-Disfrutar del video.
+		1-Mientras el video se esté reproduciendo.
+			1-Mirar el video.	
+	9-Fin
+
+***************************************************************************************************
+*Cree un algoritmo que describa su rutina diaria. Use condiciones, condiciones multiples y ciclos.*
+***************************************************************************************************
+0-Rutina Diaria:
+	1-Despertarse.
+	2-Desactivar despertador de celular:
+		1-Mientras la alrma siga sonando.
+			1-Presionar botón para apagar alarma.
+	3-Levantarme de la cama.
+	4-Acomodar la cama:
+		1-Inicio.
+		2-Ir a la cama.
+		3-Tomar Almuahada.
+		4-Acomodar Almuhada.
+		5-Tomar Cobija.	
+		6-Acomodar Cobija.
+		7-Tomar Sobrecama.
+		8-Acomodar Sobrecama.
+		9-Mientras la cama siga desarreglada.
+			1-Arreglar cama.
+		10-Fin.	
+	5-Ducharme:
+		1-Inicio.
+		2-Ir al Baño.
+		3-Deverstirme.
+		4-Abrir puerta de la ducha.
+		5-Entrar en la ducha.
+		6-Cerrar puerta de la ducha.
+		7-Abir llave de la ducha.
+		8-Tomar jabón.
+		9-Restregarme el Jabón.
+		10-Mientras no tenga todo el cuerpo emjabonado:
+			1-Restregar el Jabón por todo el cuerpo.
+		11-Tomar Shampoo.
+		12-Restregarme el Shampoo en el cabello.
+		13-Mientras no tenga el cabello totalmente lavado:
+			1-Restregar Shampoo en el cabello.
+		14-Lavarme el Jabón y el Shampoo.
+		15-Mientras siga con Jabón e el cuerpo y Shampoo en la cabeza:
+			1-Enjuagar.
+		16-Cerrr Llave de la Ducha.
+		17-Tomar Toalla.
+		18-Secarme el cuerpo:
+		19-Mientras siga con el cuepo mojado:
+			1-Secarme con la toalla.
+		20-Fin.
+	6-Vestirme:
+		1-Inicio
+		2-Ir al armario.
+		3-Si está Nublado y Frio:
+			1-Colocar ropa interior.
+			2-Colocar Jeans.
+			3-Colocar Camisa Mangas Largas.
+			4-Colocar Zapatillas.
+			5-Mientras no esté completamente vestido:
+				1-Vestirme..
+		4-Si está Soleado y Despejado:
+			1-Inicio
+			2-Colocar ropa interior.
+			3-Colocar Pantaloneta.
+			4-Colocar Tank Top.
+			5-Colocar Sandalias.
+			6-Mientras no esté completamente vestido:
+				1-Vestirme.
+		5-Sino:
+			1-Inicio.
+			2-Colocar ropa interior.
+			3-Colocar Jogger.
+			4-Colocar Camiseta.
+			5-Colocar Zapatos Deportivos.
+			6-Mientras no esté completamente vestido:
+				1-Vestirme.
+		6-Fin
+	7-Desayunar:
+		1-Hacer el Café:
+			1-Inicio.
+			2-Ir a la cocina.
+			3-Ir a la Alacena.
+			4-Tomar bolsa de Café.
+			5-Tomar Cuchara.
+			6-Si la bolsa está abierta:
+				1-Ir al coffe maker.
+			7-Sino:
+				1-Ir a la alacena.
+				2-Tomar unas tijeras.
+				3-Abrir la bolsa del Café.
+				4-Ir a la alacena.
+				5-Guardar tijeras.
+				6-Ir al coffe Maker.
+			8-Colocar 2 cucharadas grandes de Café.
+			8-Ir a la alacena.
+			8-Guardar la bolsa de café.
+			9-Tomar una jarra de vidrio de la alacena.
+			10-Ir a la Pila:
+				1-Abir Grifo.
+				2-Llenar Jarra de vidrio con Agua.
+				3-Mientras la Jarra no se llene de agua.
+					1-Llenar la jarra de agua.
+				4-Cerrar Grifo.
+			11-Ir al Coffee Maker.
+			13-Abrir tapa del Coffee Maker.					
+			13-Vertir agua en el Coffee Maker.
+			14-Cerrar tapa del Coffee Maker.
+			16-Encender Coffee Maker.
+			16-Ir a la alacena.
+			17-Dejar Jarra de vidrio.
+			18-Fin.
+		2-Cocinarme un huevo:
+			1-Inicio.
+			2-Ir a la alacena.
+			3-Tomar un sarten.
+			4-Ir a la cocina Eléctrica.
+			5-Colocar sarten en la cocina eléctrica.
+			6-Encender disco de la cocina eléctrica.
+			7-Ir a la alacena.
+			8-Tomar el aceite.
+			9-Ir a la cocina eléctrica.
+			10-Colocar un poco de aceite en el sarten.
+			11-Ir a la alacena.
+			12-Guardar Aceite.
+			13-Ir a la cocina Eléctrica.
+			14-Tomar un huevo.
+			15-Ir al Sarten en la cocina eléctrica.
+			16-Abrir huevo.
+			17-Mientras el cascaron del huevo siga cerrado.
+				1-Golpear cascara de huevo en el sarten.
+			18-Echar la contenido del huevo en el sarten.
+			19-Ir a la alacena.
+			20-Tomar Sal.
+			21-Ir al Sarten en la cocina eléctrica.
+			22-Espolvorear sal al huevo
+			23-Ir a la alacena.
+			24-Guardar Sal.
+			25-Ir al Sarten en la cocina eléctrica.
+			26-Mientras el huevo no este cocido:
+				1-Dejarlo cocinando en el sarten.
+			27-Apagar disco de la cocina eléctrica.
+			28-Ir a la alacena.
+			29-Tomar un plato.
+			30-Tomar un tenedor.
+			31-Ir a la cocina Eléctica.
+			32-Servir huevo cocido en el plato con el tenedor.
+			33-Llevar plato a la mesa del comedor.
+			34-Colocar plato junto con el tenedor en la mesa.
+			35-Fin.
+		3-Servir Café:
+			1-Ir a la alacena.
+			2-Tomar una cuchara.
+			3-Tomar una taza.
+			4-Ir al coffe maker.
+			5-Servir café en la taza.
+				1-Tomar Jarra del Coffee Maker.
+				2-Vertir Café en la taza.
+				3-Colocar jarra de vuelta en el coffee Maker.
+			6-Llevar taza con café a la mesa del comedor.
+			7-Colocar taza con café en la mesa.
+			9- Poner azúcar
+				1-Tomar azúcar de la cocina.
+				2-Servir una cucharada de azúcar en la taza.
+			10-Batir.
+		4-Comer Desayuno:
+			1-Inicio.
+			2-Comer el huevo cocinado.
+			3-Tomar el café en la taza.	
+			4-Mientras haya comida en el plato y café en la taza.
+				1-Comer alimentos.
+			5-Fin.
+		5-Lavar los trastes:
+			1-Inicio
+			2-Tomar el plato y tenedor de la mesa.
+			3-Tomar la taza y cuchara de la mesa.
+			4-Ir a la pila.
+			5-Colocar trastes en la pila.
+			6-Tomar esponja.
+			7-Tomar jabón lavaplatos.
+			8-Abrir grifo.
+			9-Por cada traste sucio:
+				1-Poner jabón lavaplatos en esponja.
+				2-Tomar traste sucio.
+				3-Mientras el traste esté sucio:
+					1-Restriegue el traste con la esponja
+			11-Cerrar grifo.	
+			12-Tomar toalla de cocina del perchero. 		
+			13-Secar traste.
+				1-Mientras el traste esté mojado.
+					1-Secar traste con toalla.
+			14-Guindar toalla de cocina en el perchero.
+			15-Tomar Plato con tenedor.
+			16-Tomar taza con cuchara.
+			17-Ir a la alacena.
+			18-Guardar Plato con tenedor.
+			19-Guardar Taza con cuchara.
+			10-Fin.
+	8-Lavarme los dientes:
+			1-Inicio.
+			2-Ir a la pila del baño.
+			3-Tomar cepillo de dientes de la repisa del baño.
+			4-Tomar pasta de dientes de la repisa del baño.
+			5-Colocar pasta de dientes en el cepillo.
+			6-Poner pasta de dientes en la repisa del baño.
+			7-Cepillar dientes.
+				1-Mientras los dientes estén sucios:
+					1-Cepillar dientes con cepillo de dientes.
+			8-Tomar vaso de la repisa.
+			9-Abrir grifo.
+			10-Llenar vaso de agua.	
+			11-Cerrar Grifo.
+			12-Enjuagar la boca con el agua.
+			14-Escupir el agua en la pila.
+			15-Abrir grifo.
+			16-Enjuagar vaso con el agua.
+			17-Limpiar cepillo de dientes con el agua.
+			17-Cerrar grifo.
+			18-Colocar vaso en la repisa.
+			19-Colocar cepillo de dientes en la repisa.
+			19-Fin
+	9-Ir a Tele-Trabajar:
+		1-Inicio.
+		2-Ir al ordenador.
+		3-Encender Ordenador.
+		4-Iniciar Session en ordenador.
+			1-Introducir usuario.
+			2-Introducir contraseña.
+		5-Leer Correos:
+			1-Abri Outlook.
+			2-Seleccionar Cuenta de Correo.
+			3-Verificar bandeja de entrada y Spam.	
+			4-Mientras haya correos en sin leer:
+				5-Revisar correos.
+		6-Ver reuniones o llamadas agendadas para el dia:
+			1-Ir al explorador web.
+			2-Ingresar el modulo de la empresa.
+			3-Iniciar session.
+				1-Introducir usuario.
+				2-Introducir contraseña.
+			4-Ir al calendario del modulo.
+		7-Trabajar.
+		8-Fin.
+	10-Almorzar:
+		1-Inicio.
+		2-Ir a la cocina.
+		3-Ir a la alacena.	
+		4-Tomar un plato.
+		5-Tomar una cuchara.
+		6-Ir al desayunador.
+		7-Servirse Almuerzo:
+			1-Servirce Arroz:
+				1-Ir a la olla arrocera.
+				2-Levantar tapa de la olla arrocera.
+				3-Tomar una cucharada grande de Arroz.
+				4-Poner la cucharada de arroz grande en el plato.
+				5-Cerrar tapa de la olla arrocera.
+			2-Servirce Frijoles:
+				1-Ir a la olla de los frijoles.
+				2-Levantar tapa de la olla de los frijoles.
+				3-Tomar una cucharada de frijoles.
+				4-Poner la cucharada de frijoles en el plato.
+				5-Cerrar tapa de la olla de los frijoles.
+			3-Servirce Ensalada
+				1-Ir al refrijerador con el plato.
+				2-Abrir refrijerador.
+				3-Tomar una cucharada de ensalada del bowl de ensalada.
+				4-Cerrar refrijerador.
+		8-Ir a la mesa del comedor.
+		9-Sentarse al rededor de la mesa.
+		10-Degustar alimentos.
+		11-Mientras haya comida en el plato.
+			1-Comer alimentos.
+		12-Fin
+	11-Lavar los trastes del almuerzo:
+		1-Inicio
+		2-Tomar el plato y cuchara de la mesa.
+		3-Ir a la pila.
+		4-Colocar trastes en la pila.
+		5-Tomar esponja.
+		6-Tomar jabón lavaplatos.
+		7-Abrir grifo.
+		8-Por cada traste sucio:
+			1-Poner jabón lavaplatos en esponja.
+			2-Tomar traste sucio.
+		9-Mientras el traste esté sucio:
+			1-Restriegue el traste con la esponja
+		10-Cerrar grifo.	
+		11-Tomar toalla de cocina del perchero. 		
+		12-Secar traste.
+		13-Mientras el traste esté mojado.
+			1-Secar traste con toalla.
+		14-Guindar toalla de cocina en el perchero.
+		15-Tomar Plato con tenedor.
+		16-Ir a la alacena.
+		17-Guardar Plato con tenedor.
+		18-Fin.
+	12-Lavarme los dientes:
+		1-Inicio.
+		2-Ir a la pila del baño.
+		3-Tomar cepillo de dientes de la repisa del baño.
+		4-Tomar pasta de dientes de la repisa del baño.
+		5-Colocar pasta de dientes en el cepillo.
+		6-Poner pasta de dientes en la repisa del baño.
+		7-Cepillar dientes.
+			1-Mientras los dientes estén sucios:
+				1-Cepillar dientes con cepillo de dientes.
+		8-Tomar vaso de la repisa.
+		9-Abrir grifo.
+		10-Llenar vaso de agua.	
+		11-Cerrar Grifo.
+		12-Enjuagar la boca con el agua.
+			1-Mientras la boca no esté limpia.
+				1-Enjuagar boca.	
+		14-Escupir el agua en la pila.
+		15-Abrir grifo.
+		16-Enjuagar vaso con el agua.
+			1-Mientras el vaso este sucio.
+				1-Enjuagar.
+		17-Limpiar cepillo de dientes con el agua.
+			1-Mientras el cepillo esté con espuma.
+				1-Enjuagar cepillo.
+		18-Cerrar grifo.
+		19-Colocar vaso en la repisa.
+		20-Colocar cepillo de dientes en la repisa.
+		21-Fin
+	13-Volver al trabajo:
+		1-Inicio.
+		2-Ir al ordenador.
+		3-Encender Ordenador.
+		4-Iniciar Session en ordenador.
+			1-Introducir usuario.
+			2-Introducir contraseña.
+		5-Continuar trabajando.
+		6-Fin.
+	14-Finalizar de trabajar.
+		1-Inicio.
+		2-Guardar las tareas del dia.
+			1-Mientras haya tareas sin guardar.
+				1-Guardar Tareas.
+		2-Ir al menú de Windows.
+		3-Seleccionar el usuario.
+		4-Cerrar sessión del usuario.
+		5-Apagar ordenador.
+		6-Fin.
+	14-Estudiar:
+		1-Inicio.
+		2-Ir al computador.
+		3-Iniciar session en el computador.	
+		4-Ir al navegador web.
+		5-Digitar www.notion.so en el buscador web.
+		6-Iniciar session en el sitio web.
+			1-Introducir correo electrónico.
+			2-Abrir una nueva pestaña en el navegador.
+			3-Ir al gmail.com.
+			4-Iniciar sesión.
+			5-Introducir usuario.
+			6-Introducir contraseña.
+			7-Ir a la bandeja de entrada.
+			8-Abrir correo de Notio.
+				1-Si no hay correo de notion.
+					1-Presionar actualizar bandeja.
+			9-Copiar codigo de acceso.
+			10-Ir a la otra pestaña del navegador.
+			11-Pegar codigo en el campo de insertar codigo de verificación.
+			12-Acceder al Notion del Lifter.
+		13-Ingresar a la etiqueta "Plan de acción".
+		14-Seleccionar la semana de estudio correspondiente.
+		15-Iniciar lección correspondiente.
+		16-Mientras no termines los temas y tengas energia para estudiar:
+			1-Estudiar.
+		18-Cerrar sesión en notion.
+		19-Cerrar sesión en gmail.
+		19-Apagar ordernador.
+		17-Fin
+	15-Lavarme los dientes
+		1-Inicio.
+		2-Ir a la pila del baño.
+		3-Tomar cepillo de dientes de la repisa del baño.
+		4-Tomar pasta de dientes de la repisa del baño.
+		5-Colocar pasta de dientes en el cepillo.
+		6-Poner pasta de dientes en la repisa del baño.
+		7-Cepillar dientes.
+			1-Mientras los dientes estén sucios:
+				1-Cepillar dientes con cepillo de dientes.
+		8-Tomar vaso de la repisa.
+		9-Abrir grifo.
+		10-Llenar vaso de agua.	
+		11-Cerrar Grifo.
+		12-Enjuagar la boca con el agua.
+			1-Mientras la boca no esté limpia.
+				1-Enjuagar boca.	
+		14-Escupir el agua en la pila.
+		15-Abrir grifo.
+		16-Enjuagar vaso con el agua.
+			1-Mientras el vaso este sucio.
+				1-Enjuagar.
+		17-Limpiar cepillo de dientes con el agua.
+			1-Mientras el cepillo esté con espuma.
+				1-Enjuagar cepillo.
+		18-Cerrar grifo.
+		19-Colocar vaso en la repisa.
+		20-Colocar cepillo de dientes en la repisa.
+		21-Fin
+	16-Ir a dormir:
+		1-Inicio.
+		2-Ir al armario.
+		3-Devestirme.
+		4-Tomar pijama del armario.
+		5-Ponerme el pijama del armario.
+		6-Ir a mi habitación.
+		7-Poner a cargar el celula:
+			1-Tomar cargador de celular de la mesa de noche.
+			2-Tomar celular de la mesa de noche.
+			5-Conectar Cargador de celular al celular.
+			6-Conectar cargador al enchufe.
+			7-Colocar celular en la mesa de noche.
+		8-Preparar alarma:
+			1-Tomar celular.
+			2-Debloquear celular.
+			3-Activar alarma en el celular.
+			4-Bloquear celular.
+			5-Colocar celular en la mesa de noche
+		9-Preparar la cama:
+			1-Tomar sobrecama.
+			2-Mover sobrecama hasta el limite inferior de la cama.
+			3-Tomar cobija.
+			4-Mover cobija hasta la mitad de la cama.	
+		5-Integresar a la cama.
+			1-Tomar cobija.
+			2-Colocar la cobija sobre mi.
+		6-Apagar las luces de la habitación.
+			1-Apagar el interruptor de la luz contiguo a la cama.
+		7-Cerrar los ojos.
+		8-Mientras no suene la alarma
+			1-Dormir.
+	17-Fin.		
