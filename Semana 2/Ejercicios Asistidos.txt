@@ -1,0 +1,67 @@
+1. Dadas las horas trabajadas de una persona y su tarifa por hora, calcular y mostrar su salario.
+
+1. Inicio
+2. Definir `horas_trabajadas`
+3. Definir `tarifa_por_hora`
+4. Definir `salario`
+5. Mostrar “Ingrese sus horas trabajadas”
+6. Pedir `horas_trabajadas`
+7. Mostrar “Ingrese su tarifa por hora”
+8. Pedir `tarifa_por_hora`
+9. `salario` = `horas_trabajadas` * `tarifa_por_hora`
+10. Mostrar “Su salario es de”
+11. Mostrar `salario` 
+12. Fin
+
+2. Dada `n` cantidad de notas de un estudiante, calcular:
+    1. Cuantas notas tiene aprobadas (mayor o igual a 70).
+    2. Cuantas notas tiene desaprobadas (menor a 70).
+    3. El promedio de todas.
+    4. El promedio de las aprobadas.
+    5. El promedio de las desaprobadas.
+
+1. Inicio
+2. Definir `cantidad_de_notas`
+3. Definir `contador`
+4. Definir `nota`
+5. Definir `cantidad_de_aprobadas`
+6. Definir `cantidad_de_desaprobadas`
+7. Definir `promedio_total`
+8. Definir `promedio_aprobadas`
+9. Definir `promedio_desaprobadas`
+10. Mostrar “Ingrese su cantidad de notas”
+11. Pedir `cantidad_de_notas` → 3
+12. `contador` = 1 → 4
+13. `cantidad_de_aprobadas` = 0 → 2
+14. `cantidad_de_desaprobadas` = 0 → 1
+15. `promedio_total` = 0 → 75 + 50 + 100 = 225 / 3 = 75
+16. `promedio_aprobadas` = 0  → 75 + 100 / 2 = 87.5
+17. `promedio_desaprobadas` = 0  → 50 / 1 = 50
+18. Mientras que (`contador` ≤ `cantidad_de_notas`) hacer:
+    1. Mostrar “Ingrese la nota numero”
+    2. Mostrar `contador` 
+    3. Pedir `nota`
+    4. Si (nota ≥ 70) entonces
+        1. `cantidad_de_aprobadas`  = `cantidad_de_aprobadas`  + 1
+        2. `promedio_aprobadas` = `promedio_aprobadas` + `nota`
+    5. Sino
+        1. `cantidad_de_desaprobadas` = `cantidad_de_desaprobadas` + 1
+        2. `promedio_desaprobadas` = `promedio_desaprobadas` + `nota`
+    6. FinSi
+    7. `promedio_total` = `promedio_total` + `nota`
+    8. `contador` = `contador` + 1
+19. FinMientras
+20. `promedio_total` = `promedio_total`  / `cantidad_de_notas`
+21. `promedio_aprobadas` = `promedio_aprobadas` / `cantidad_de_aprobadas`  
+22. `promedio_desaprobadas` = `promedio_desaprobadas` / `cantidad_de_desaprobadas` 
+23. Mostrar “Su cantidad de notas aprobadas fue”
+24. Mostrar `cantidad_de_aprobadas`  
+25. Mostrar “Su cantidad de notas desaprobadas fue”
+26. Mostrar `cantidad_de_desaprobadas` 
+27. Mostrar “Su promedio de notas total fue”
+28. Mostrar `promedio_total` 
+29. Mostrar “Su promedio de notas aprobadas fue”
+30. Mostrar `promedio_aprobadas` 
+31. Mostrar “Su promedio de notas desaprobadas fue”
+32. Mostrar `promedio_desaprobadas` 
+33. Fin

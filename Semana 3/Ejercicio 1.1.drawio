@@ -1,0 +1,99 @@
+<mxfile host="app.diagrams.net" modified="2024-06-20T19:33:55.761Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="wU-n6PnHXuEKMD0W_pPP" version="24.5.5" type="device">
+  <diagram name="Página-1" id="jrZ3KeB0W3mMGMG7KVmg">
+    <mxGraphModel dx="2501" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8gzvByBDKba7Zvx8uKh9-39" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="8gzvByBDKba7Zvx8uKh9-1" target="8gzvByBDKba7Zvx8uKh9-34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8gzvByBDKba7Zvx8uKh9-1" value="Inicio" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-51.25" y="40" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8gzvByBDKba7Zvx8uKh9-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="8gzvByBDKba7Zvx8uKh9-2" target="8gzvByBDKba7Zvx8uKh9-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8gzvByBDKba7Zvx8uKh9-2" value="&quot;Ingrese el precio del Producto&quot;." style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-74.38" y="310" width="148.75" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8gzvByBDKba7Zvx8uKh9-4" value="Precio_De_Producto&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
+          <mxGeometry x="-82.5" y="410" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8gzvByBDKba7Zvx8uKh9-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="8gzvByBDKba7Zvx8uKh9-5" target="8gzvByBDKba7Zvx8uKh9-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-180" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8gzvByBDKba7Zvx8uKh9-11" value="Falso" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="8gzvByBDKba7Zvx8uKh9-10" vertex="1" connectable="0">
+          <mxGeometry x="-0.0308" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8gzvByBDKba7Zvx8uKh9-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="8gzvByBDKba7Zvx8uKh9-5" target="8gzvByBDKba7Zvx8uKh9-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8gzvByBDKba7Zvx8uKh9-15" value="Verdadero&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="8gzvByBDKba7Zvx8uKh9-14" vertex="1" connectable="0">
+          <mxGeometry x="0.1" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8gzvByBDKba7Zvx8uKh9-5" value="Precio_De_Producto&amp;nbsp;≥ 100" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-110" y="500" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="8gzvByBDKba7Zvx8uKh9-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="8gzvByBDKba7Zvx8uKh9-4" target="8gzvByBDKba7Zvx8uKh9-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8gzvByBDKba7Zvx8uKh9-27" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="8gzvByBDKba7Zvx8uKh9-12" target="8gzvByBDKba7Zvx8uKh9-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-190" y="768" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8gzvByBDKba7Zvx8uKh9-12" value="&#39;Descuento&#39; =&amp;nbsp; (&#39;Precio_de_Producto&#39; * 2) / 100" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="-320" y="610" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="8gzvByBDKba7Zvx8uKh9-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="8gzvByBDKba7Zvx8uKh9-13" target="8gzvByBDKba7Zvx8uKh9-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="768" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8gzvByBDKba7Zvx8uKh9-13" value="&#39;Descuento&#39; = (&#39;Precio_de_Producto&#39; * 10) / 100" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="110" y="610" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="8gzvByBDKba7Zvx8uKh9-16" value="‘Precio_Final’ = ‘Precio_de_Producto’ - ‘Descuento’" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="-160" y="740" width="370" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="8gzvByBDKba7Zvx8uKh9-29" value="&quot;El precio final del producto es:&quot;&lt;div&gt;&#39;Precio_Final&#39;&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-35" y="820" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8gzvByBDKba7Zvx8uKh9-30" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="8gzvByBDKba7Zvx8uKh9-16" target="8gzvByBDKba7Zvx8uKh9-29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8gzvByBDKba7Zvx8uKh9-31" value="Fin" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-25" y="930" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8gzvByBDKba7Zvx8uKh9-32" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="8gzvByBDKba7Zvx8uKh9-29" target="8gzvByBDKba7Zvx8uKh9-31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8gzvByBDKba7Zvx8uKh9-40" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="8gzvByBDKba7Zvx8uKh9-34" target="8gzvByBDKba7Zvx8uKh9-35" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8gzvByBDKba7Zvx8uKh9-34" value="&#39;Descuento&#39; = 0" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="-48.75999999999999" y="120" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8gzvByBDKba7Zvx8uKh9-35" value="&#39;Precio_Final&#39; = 0" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="-48.75999999999999" y="180" width="97.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8gzvByBDKba7Zvx8uKh9-36" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="8gzvByBDKba7Zvx8uKh9-34" target="8gzvByBDKba7Zvx8uKh9-34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h3aTpKiTHOiHQ2LvxwwL-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8gzvByBDKba7Zvx8uKh9-35" target="8gzvByBDKba7Zvx8uKh9-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
