@@ -1,7 +1,7 @@
 #Cree un decorador que se encargue de revisar si todos los parámetros de la función que decore son números, y arroje una excepción de no ser así.
 
 def checkValues(func):
-    def wrapper(*args):
+    def wrapper(*args, **kwargs):
         # Check if all the values are numbers
         for i in args:
             #If the value is number going to pass and move it to the next one
@@ -12,12 +12,12 @@ def checkValues(func):
                 raise ValueError(f"Valor no válido: {i}. Todos los valores deben ser números o números con decimales.")
         
         #calling the function
-        return func(*args)  
+        return func(*args, **kwargs)  
     
     return wrapper
 
 @checkValues
-def printMessage(*args):
+def printMessage(*args,**kwargs):
     print("Función ejecutada con éxito.")
 
 
