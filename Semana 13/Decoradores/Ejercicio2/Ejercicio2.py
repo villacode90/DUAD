@@ -11,6 +11,13 @@ def checkValues(func):
                 #If a value is not a number going to print the exception
                 raise ValueError(f"Valor no válido: {i}. Todos los valores deben ser números o números con decimales.")
         
+            #validation for kwargs.
+            for key, value in kwargs.items():
+                if isinstance(value,(int,float)):
+                    pass
+                else:
+                     raise ValueError(f"Valor no válido en kwargs: {key}={value}. Todos los valores deben ser números.")
+
         #calling the function
         return func(*args, **kwargs)  
     
